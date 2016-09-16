@@ -6,7 +6,7 @@
 <font color="red">111</font>
 
 ## 环境依赖
-运行环境：Python 3.3-3.5
+运行环境：Python 2.7-3.5
 
 依赖 `BeautifulSoup` 、｀RawConfigParser｀和 `Requests`，通过如下命令可安装
 
