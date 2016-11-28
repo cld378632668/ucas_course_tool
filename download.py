@@ -1,3 +1,10 @@
+# @file evaluate.py
+# @brief enroll & evaluate
+# @author libowei，378632668@qq.com
+# @version 0.2.00
+# @date 2016-9-3
+
+
 # -*- coding:utf8 -*-
 import requests
 import re
