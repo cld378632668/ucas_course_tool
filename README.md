@@ -77,6 +77,7 @@ bash> sudo locale-gen en_US.UTF-8
 bash> export LC_ALL=en_US.UTF-8
 bash> python3 evaluate.py
 ```
+
 # 国科大课件下载脚本
 ## 简介
 使用教务系统账号、密码登录课程网站，读取选课信息，从所选课程的“讲义课件”中下载该课程的课件
