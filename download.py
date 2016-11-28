@@ -19,7 +19,7 @@ def download(url, fileName, className, session):
     s = session.get(url)
     with open(file, "wb") as data:
         data.write(s.content)
-    
+
 def errorExit(msg):
     print(msg)
     os.system("pause")
@@ -31,15 +31,15 @@ def getClass(currentClass, url, session, data):
     else:
         s = session.get(url)
     resourceList = BeautifulSoup(s.text, "html.parser").findAll("tr")
-    
+
     for res in resourceList:
         if res.find("td") == None:
             continue
         if res.find("h4") == None:
             continue
-        
+
         resUrl = res.find("h4").a.get("href")
-        
+
         if resUrl == "#":
             path = res.find("td", {"headers":"checkboxes"}).input.get("value")
             data = {'source':'0', 'collectionId':path, 'navRoot':'', 'criteria':'', 'sakai_action':'doNavigate', 'rt_action':'', 'selectedItemId':'', 'resourceName':''}
@@ -52,24 +52,24 @@ def getClass(currentClass, url, session, data):
 
 
 if __name__ == '__main__':
-    
+
     print(u"=============================")
     print(u"    课件自动下载脚本 v1.0")
     print(u"        by libowei")
     print(u"=============================")
-    
+
     try:
         config = open("user.txt")
     except IOError:
         errorExit("请创建user.txt文件")
-        
+
     try:
         line = config.readline().split()
         username = line[0]
-        password = line[1]             
+        password = line[1]
     except IndexError:
         errorExit("user.txt文件格式不正确啊")
-    
+
     print("您的登录名为：" + username)
     flag = input("是否继续？(y/n)")
     if flag != "Y" and flag != "y":
@@ -93,12 +93,12 @@ if __name__ == '__main__':
         print(u"......................")
         print(u"获取信息中，稍安勿躁....")
         print(u"......................")
-        
-    
+
+
         # 课程网站
         s = session.get("http://sep.ucas.ac.cn/portal/site/16/801")
         bsObj = BeautifulSoup(s.text, "html.parser")
-        
+
         newUrl = bsObj.find("noscript").meta.get("content")[6:]
         s = session.get((newUrl))
         bsObj = BeautifulSoup(s.text, "html.parser")
@@ -127,7 +127,7 @@ if __name__ == '__main__':
         # 打印所有课程
         for c in classList:
             print(c[1] + "(" + c[3] + ")")
-            
+
         print("\n")
         print("开始下载课件......")
         for c in classList:
@@ -140,6 +140,6 @@ if __name__ == '__main__':
             getClass(c[1], url, session, None)
     except NameError:
         errorExit("妈呀，出错了，请重启软件重试")
-                
+
     print("\n")
     errorExit("课件下好了，滚去学习吧！\n")

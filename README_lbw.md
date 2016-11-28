@@ -30,4 +30,4 @@ python download_courseware.py
 在`download_courseware.exe`所在目录新建`user.txt`文件，将第一行改为你的登录名和密码（以空格分隔）
 
 
-双击运行程序 
+双击运行程序
