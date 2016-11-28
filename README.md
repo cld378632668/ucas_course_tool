@@ -1,7 +1,8 @@
 # ucas_course_tool
-国科大自动选课、退课（以开发）｜评教、课件同步、查看作业信息、查看谁和你一起上课、登录校园网（未提交）
-鸣谢：两位原作者、王运韬、张逸飞、陈明毅、何厚华。
-如果想要学习，联系QQ：378632668，联系时请主动自我介绍和发送简历，谢谢配合。
+注意：每个学期插件都需要更新，但我没时间更新，如有需要可以联系我，我教你怎么写这个插件。 QQ：378632668，联系时请主动自我介绍和发送简历，不要浪费时间，谢谢配合。
+
+鸣谢：两位原作者、陈明毅、何厚华。
+
 
 <font color="red">111</font>
 
@@ -13,7 +14,7 @@
 ```
 bash> pip install beautifulsoup4
 bash> pip install requests
-bash> pip install configparser 
+bash> pip install configparser
 ```
 注意包名有大写，但安装的时候都是小写
 
@@ -68,5 +69,4 @@ Ubuntu系统下脚本可能会出现“No such course”的错误，即使填入
 bash> sudo locale-gen en_US.UTF-8  
 bash> export LC_ALL=en_US.UTF-8
 bash> python3 evaluate.py
-``` 
-
+```
