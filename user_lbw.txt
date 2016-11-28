@@ -1,3 +1,0 @@
-chenlidong16@mails.ucas.ac.cn keep balance
-#第一行填写教务系统登录名和密码，以空格分隔
-#例：xxx@ucas.ac.cn 123456
