@@ -1,8 +1,4 @@
-# @file evaluate.py
-# @brief enroll & evaluate
-# @author scusjs@foxmail.com, my@imcmy.me，378632668@qq.com
-# @version 0.2.00
-# @date 2016-9-3
+
 
 import requests
 from configparser import RawConfigParser
@@ -10,6 +6,8 @@ from bs4 import BeautifulSoup
 
 debug = False
 
+
+#从 login 开始把函数调用逻辑写出来给别人看
 
 class UCASEvaluate:
     def __init__(self):
