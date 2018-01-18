@@ -11,3 +11,9 @@
  create mode 100644 git_push_all_projects_in_pwd_LOG.txt
 /g/[important]MyCode/ucas_course_tool
 2018年01月18日 11:16:52
+[master 1d87898] update
+ 4 files changed, 192 insertions(+), 179 deletions(-)
+ rewrite "Tutorial_\346\272\220\347\240\201\351\230\205\350\257\273\345\270\256\345\212\251_python\346\226\260\346\211\213\345\205\245\351\227\250\346\214\207\345\215\227.md" (99%)
+ create mode 100644 requests_introduce.py
+/g/[important]MyCode/ucas_course_tool
+2018年01月18日 12:06:11

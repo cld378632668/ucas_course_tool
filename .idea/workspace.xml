@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc9036e-2ee1-4950-b61d-4bd3c60340fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requests_introduce.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tutorial_源码阅读帮助_python新手入门指南.md" afterPath="$PROJECT_DIR$/Tutorial_源码阅读帮助_python新手入门指南.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/git_push_all_projects_in_pwd_LOG.txt" afterPath="$PROJECT_DIR$/git_push_all_projects_in_pwd_LOG.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requests_introduce.py" afterPath="$PROJECT_DIR$/requests_introduce.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-1882" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -185,7 +183,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1882" y="0" width="1936" height="1056" extended-state="0" />
+    <frame x="-1882" y="0" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22097977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
